@@ -29,7 +29,7 @@ export class GroceryList extends Component {
 
     crossedWord(event) {
         const li = event.target;
-        li.classList.toggle('crossed'); // даём название класса
+        li.classList.toggle('crossed'); 
     }
 
     deleteItem() {
